@@ -1,2 +1,2 @@
-# jmeter-demo-script
-jmeter script demo for targets-io performance test dashboard
+# perfana-jmeter-demo-script
+jmeter script demo for Perfana performance test dashboard
