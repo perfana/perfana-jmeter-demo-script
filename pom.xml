@@ -60,6 +60,7 @@
                         <test.productHost>${test.productHost}</test.productHost>
                         <test.productPort>${test.productPort}</test.productPort>
                         <test.influxdb.url>${test.influxdb.url}</test.influxdb.url>
+                        <test.application>${perfana.application}</test.application>
 
 
                     </propertiesUser>
