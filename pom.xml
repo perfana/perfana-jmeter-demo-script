@@ -15,7 +15,7 @@
         <perfana.applicationRelease>portal-6.1.5.1</perfana.applicationRelease>
 
         <!-- influxdb server -->
-        <test.influxdb.url>http://influxdb.app.k8s.backbase.test</test.influxdb.url>
+        <test.influxdb.url>http://influxdb:2003</test.influxdb.url>
 
         <!-- By default Jenkins build Url is used -->
         <perfana.buildResultsUrl>${BUILD_URL}</perfana.buildResultsUrl>
@@ -42,7 +42,7 @@
                 <artifactId>perfana-jmeter-maven-plugin</artifactId>
                 <configuration>
                     <perfanaEnabled>true</perfanaEnabled>
-                    <perfanaUrl>http://perfana.app.k8s.backbase.test</perfanaUrl>
+                    <perfanaUrl>http://perfana:3000</perfanaUrl>
                     <perfanaAssertResultsEnabled>true</perfanaAssertResultsEnabled>
                     <perfanaApplication>${perfana.application}</perfanaApplication>
                     <perfanaTestEnvironment>pro-port</perfanaTestEnvironment>
